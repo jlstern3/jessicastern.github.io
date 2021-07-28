@@ -101,6 +101,7 @@ img {
 }
 .tech-skills-section p {
     margin-bottom: 5rem;
+    padding-bottom: 10rem;
 }
 
 .tech-skills-header{
@@ -108,4 +109,6 @@ img {
 }
 .tech-skills-ul{
     color: white;
+    display: inline-block;
+    vertical-align: top;
 }
