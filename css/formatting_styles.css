@@ -41,6 +41,7 @@ img {
         border-radius: 100%;
     }
 
+/* "Lollipop handles" - Tech Skills */
     .feature-icon:after {
         content: '';
         position: absolute;
@@ -116,7 +117,7 @@ img {
 .profile-pic{
     border-radius: 50%;
     height: auto;
-    width: 22rem;
+    width: 25rem;
     margin-bottom: 10rem;
     filter: none !important;
 }
