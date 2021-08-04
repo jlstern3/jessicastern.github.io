@@ -121,3 +121,9 @@ img {
     margin-bottom: 10rem;
     filter: none !important;
 }
+
+/* Carousel */
+#carouselExampleSlidesOnly{
+    width: 45%;
+    height: auto;
+}
