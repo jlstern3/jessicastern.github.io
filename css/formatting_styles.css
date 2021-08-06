@@ -127,3 +127,8 @@ img {
     width: 45%;
     height: auto;
 }
+
+#tech-skills-title{
+    color: white !important;
+    padding-left: 99px;
+}
