@@ -132,3 +132,7 @@ img {
     color: white !important;
     padding-left: 99px;
 }
+
+.btn:hover{
+    background-color: #635589;
+}
