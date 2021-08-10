@@ -137,6 +137,7 @@ img {
     background-color: #635589;
 }
 
+
  /* Image Overlay */
 .img-overlay{
     position: absolute;
@@ -177,3 +178,4 @@ img {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
