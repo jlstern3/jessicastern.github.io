@@ -181,3 +181,7 @@ img {
     
 }
 
+/* Option for having dropdowns always position under button */
+/* .dropdown-menu{
+    transform: translate3d(5px, 35px, 0px)!important;
+} */
