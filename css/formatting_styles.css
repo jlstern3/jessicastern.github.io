@@ -185,3 +185,8 @@ img {
 /* .dropdown-menu{
     transform: translate3d(5px, 35px, 0px)!important;
 } */
+
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
