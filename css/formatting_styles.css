@@ -107,6 +107,7 @@ img {
 
 .tech-skills-header{
     color: white;
+    margin-bottom: 20px;
 }
 .tech-skills-ul{
     color: white;
@@ -131,6 +132,7 @@ img {
 #tech-skills-title{
     color: white !important;
     padding-left: 99px;
+    font-weight: bolder;
 }
 
 .btn:hover{
