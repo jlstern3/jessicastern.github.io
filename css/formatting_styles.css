@@ -118,7 +118,7 @@ img {
     border-radius: 50%;
     height: auto;
     width: 25rem;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
     filter: none !important;
 }
 
