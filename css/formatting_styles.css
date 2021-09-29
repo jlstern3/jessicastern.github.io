@@ -97,7 +97,7 @@ img {
 
 /* Technical Skills Section */
 .tech-skills-section {
-    padding: 6rem 0;
+    padding: 10rem 0;
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .tech-skills-section p {
@@ -109,12 +109,17 @@ img {
     color: white;
     margin-bottom: 20px;
 }
+
 .tech-skills-ul{
     color: white;
     display: inline-block;
     vertical-align: top;
 }
 
+
+#projects .mb-4{
+    font-weight: bolder;
+}
 .profile-pic{
     border-radius: 50%;
     height: auto;
