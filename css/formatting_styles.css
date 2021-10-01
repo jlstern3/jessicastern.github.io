@@ -184,9 +184,13 @@ img {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: left;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: normal;
     
 }
+
+
 
 /* Option for having dropdowns always position under button */
 /* .dropdown-menu{
