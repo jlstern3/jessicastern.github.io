@@ -152,7 +152,7 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
@@ -162,7 +162,7 @@ img {
 .img-to-overlay{
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .img-container{
@@ -194,6 +194,11 @@ img {
     margin-top: 2rem;
 }
 
+#ca-proj-summary{
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.548) !important;
+}
+
 
 
 /* Option for having dropdowns always position under button */
@@ -201,7 +206,19 @@ img {
     transform: translate3d(5px, 35px, 0px)!important;
 } */
 
+/* Contact Section */
 .contact-link{
     text-decoration: none;
     color: black;
+    font-size: 1rem;
+}
+
+#email{
+    font-size: 1rem;
+}
+
+#email-icon, #github-icon, #linkedin-icon{
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-bottom: 10px;
 }
