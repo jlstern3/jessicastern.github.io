@@ -210,11 +210,11 @@ img {
 .contact-link{
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 #email{
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 #email-icon, #github-icon, #linkedin-icon{
@@ -222,3 +222,12 @@ img {
     width: 1.7rem;
     margin-bottom: 10px;
 }
+
+.contact-subtitles{
+    padding-top:20px;
+    font-size: smaller;
+}
+
+/* .card{
+    width: 20rem;
+} */
