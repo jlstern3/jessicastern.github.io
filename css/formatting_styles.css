@@ -2,10 +2,10 @@
     margin-right: 15px;
 }
 
-img {
+/* img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-}
+} */
 
 /* Feature Icon */
 
@@ -117,6 +117,13 @@ img {
 }
 
 
+#tech-skills-title{
+    color: white !important;
+    padding-left: 99px;
+    font-weight: bolder;
+}
+
+
 #projects .mb-4{
     font-weight: bolder;
 }
@@ -134,11 +141,6 @@ img {
     height: auto;
 }
 
-#tech-skills-title{
-    color: white !important;
-    padding-left: 99px;
-    font-weight: bolder;
-}
 
 .btn:hover{
     background-color: #635589;
@@ -227,7 +229,3 @@ img {
     padding-top:20px;
     font-size: smaller;
 }
-
-/* .card{
-    width: 20rem;
-} */
