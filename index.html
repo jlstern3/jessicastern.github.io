@@ -6,7 +6,7 @@
     <!-- Responsive viewport meta tag (ensures proper rending and touch zooming for all devices) -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description"
-        content="Official portfolio for Jessica Stern, a resourceful Ann Arbor-based full stack web developer." />
+        content="Official portfolio for Jessica Stern, a resourceful Ann Arbor-based full stack software developer." />
     <meta name="author" content="Jessica Stern - Ann Arbor, MI" />
     <title>Jessica Stern</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -63,7 +63,7 @@
                 <div class="col-lg-5">
                     <h2 class="mb-4">Hi, I'm Jess!</h2>
                     <p>
-                        I'm a resourceful, Ann Arbor-based full-stack web developer on a mission to re-wild humanity
+                        I'm a resourceful, Ann Arbor-based full-stack software developer on a mission to re-wild humanity
                         using the power of
                         technology. My intense passion for reconnecting people with nature is what motivates me; my
                         curiosity and desire to learn and grow is what drives me daily.
@@ -72,7 +72,8 @@
                         challenges, explore new ideas, and push myself out of my comfort zone.</p>
                 </div>
                 <div class="col">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Indicator Tabs on Bottom (below) -->
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                 class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -87,6 +88,8 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
                                 aria-label="Slide 6"></button>
                         </div>
+                        <!-- Indicator Tabs ^ -->
+                        <!-- Carousel Images (below) -->
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="6000">
                                 <img src="assets/img/Jess-Outdoors.jpg" class="d-block w-100" alt="Jessica Stern">
@@ -103,67 +106,29 @@
                                     alt="Absailing off a mountain in Glencoe, Scotland">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/img/Farm.JPG" class="d-block w-100" alt="Raise the Root Farm Prooduce">
+                                <img src="assets/img/Farm.JPG" class="d-block w-100" alt="Raise the Root Farm Produce">
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/Street-Art.JPG" class="d-block w-100" alt="Street Art in London">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        <!-- Carousel Images ^ -->
+                        <!-- Next and Previous Buttons below -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+                        <!-- Next and Previous Buttons ^ -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Carousel -->
-        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="6000">
-                    <img src="assets/img/Jess-Outdoors.jpg" class="d-block w-100" alt="Jessica Stern">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Isle-of-Skye.JPG" class="d-block w-100" alt="Isle of Skye, Scotland">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Rock-climbing.JPG" class="d-block w-100" alt="Rock Climbing">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Absailing.JPG" class="d-block w-100" alt="Absailing off a mountain in Glencoe, Scotland">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Farm.JPG" class="d-block w-100" alt="Raise the Root Farm Prooduce">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Street-Art.JPG" class="d-block w-100" alt="Street Art in London">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div> -->
     </section>
     <!-- Technical Skills -->
     <section class="tech-skills-section" id="tech-skills">
@@ -285,7 +250,7 @@
                             title="Will load a new page..." data-bs-container="body"
                             href="https://github.com/jlstern3/challengeaccepted">View the
                             Code</a>
-                        <p id="ca-proj-summary">- 30-day physical fitness challenges targeting various muscle groups -
+                        <p id="ca-proj-summary">- 30-day physical fitness challenges for atheletes and couch-potatoes alike -
                         </p>
 
                     </div>
