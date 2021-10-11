@@ -5933,6 +5933,11 @@ textarea.form-control-lg {
   content: "";
 }
 
+.carousel-item img{
+  object-fit: contain;
+  max-height: 500px;
+}
+
 .carousel-item {
   position: relative;
   display: none;
