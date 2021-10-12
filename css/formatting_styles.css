@@ -92,7 +92,7 @@
 
 /* Technical Skills Section */
 .tech-skills-section {
-    padding: 10rem 0;
+    padding: 10rem 0 13.5rem 0;
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .tech-skills-section p {
@@ -122,13 +122,7 @@
 #projects .mb-4{
     font-weight: bolder;
 }
-.profile-pic{
-    border-radius: 50%;
-    height: auto;
-    width: 25rem;
-    /* margin-bottom: 10rem; */
-    filter: none !important;
-}
+
 
 /* Carousel */
 #carouselExampleSlidesOnly{
@@ -197,12 +191,14 @@
 }
 
 
-
-/* Option for having dropdowns always position under button */
-/* .dropdown-menu{
-    transform: translate3d(5px, 35px, 0px)!important;
-} */
-
+/* Dropdown Menus */
+.dropdown-menu{
+    height: 200px;
+    width: auto;
+    overflow-y: scroll;
+    padding-left: 10px;
+    /* transform: translate3d(5px, 35px, 0px)!important; */
+}
 /* Contact Section */
 .contact-link{
     text-decoration: none;
