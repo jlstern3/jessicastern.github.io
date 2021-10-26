@@ -220,3 +220,15 @@
     padding-top:20px;
     font-size: smaller;
 }
+
+/* Tech Projects Section */
+
+.svg-inline--fa{
+    font-size: 3em;
+    vertical-align: -0.6em;
+    margin-left: 10px;
+}
+
+a.display-gif{
+    padding-bottom: 1.9em;
+}
