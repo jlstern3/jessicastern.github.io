@@ -229,6 +229,18 @@
     margin-left: 10px;
 }
 
+.svg-inline--fa:hover{
+    color: #635589;
+}
+
 a.display-gif{
     padding-bottom: 1.9em;
+}
+
+.svg-inline--fa.fa-w-14{
+    margin-right: 12px;
+}
+
+#raise-the-root-icons{
+    padding-top: 32px;
 }
