@@ -196,9 +196,20 @@
     height: 200px;
     width: auto;
     overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
     padding-left: 10px;
-    /* transform: translate3d(5px, 35px, 0px)!important; */
 }
+
+.dropdown-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+.dropdown-menu::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #666666;
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
 /* Contact Section */
 .contact-link{
     text-decoration: none;
