@@ -233,14 +233,12 @@
 }
 
 /* Tech Projects Section */
-
-.svg-inline--fa{
+.svg-inline--fa.fa-tablet-alt, .svg-inline--fa.fa-play-circle{
     font-size: 3em;
     vertical-align: -0.6em;
     margin-left: 10px;
 }
-
-.svg-inline--fa:hover{
+.svg-inline--fa.fa-tablet-alt:hover, .svg-inline--fa.fa-play-circle:hover{
     color: #635589;
 }
 
